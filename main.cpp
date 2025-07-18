@@ -24,7 +24,7 @@ void printUsage(const char* progName) {
               << "  --list-devices           List all OpenCL devices and exit\n"
               << "  --device <N>             Select OpenCL device by index (default: 0)\n"
               << "  --size <value>           Transfer size (e.g. 512M, 1.25G) [default: 1G]\n"
-              << "  --iter <N>               Number of iterations [default: 10]\n"
+              << "  --iter <N>               Number of iterations [default: 1]\n"
               << "  --help                   Show this message\n";
 }
 
