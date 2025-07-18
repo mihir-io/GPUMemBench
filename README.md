@@ -5,7 +5,7 @@ This repository provides a simple CLI tool that uses OpenCL to test Device to Ho
 ## Usage
 
 ```
-Usage: oclbandwidth.exe [OPTIONS]
+Usage: oclmembench.exe [OPTIONS]
 
 Options:
   --list-devices           List all OpenCL devices and exit
