@@ -39,6 +39,7 @@ Device to Device: 147.16 GB/s (13.5909 ms total, 13.5909 (+/- 0) ms/iter)
 #### Command
 
 I use Git Bash to build this, hence the Unix-style paths. You should also subsitute the paths with the exact version of the OpenCL SDK you downloaded.
+`cd` into the `opencl` directory and run this:
 
 ```bash
 g++ -std=c++17 main.cpp -L ~/Downloads/OpenCL-SDK-v2024.10.24-Win-x64/lib/ -I ~/Downloads/OpenCL-SDK-v2024.10.24-Win-x64/include/ -lOpenCL -o oclmembench.exe
