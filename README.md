@@ -29,5 +29,5 @@ Options:
 I use Git Bash to build this, hence the Unix-style paths. You should also subsitute the paths with the exact version of the OpenCL SDK you downloaded.
 
 ```bash
-g++ -std=c++17 main.cpp -L ~/Downloads/OpenCL-SDK-v2024.10.24-Win-x64/lib/ -I ~/Downloads/OpenCL-SDK-v2024.10.24-Win-x64/include/ -lOpenCL -o oclbandwidth.exe
+g++ -std=c++17 main.cpp -L ~/Downloads/OpenCL-SDK-v2024.10.24-Win-x64/lib/ -I ~/Downloads/OpenCL-SDK-v2024.10.24-Win-x64/include/ -lOpenCL -o oclmembench.exe
 ```
