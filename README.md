@@ -15,6 +15,18 @@ Options:
   --help                   Show this message
 ```
 
+### Example Output
+
+```
+./oclmembench-1.0.0-win-x86_64.exe --size 2G
+Using device: gfx1100
+Transfer size: 2147483648 bytes (2.00 GB), Iterations: 1
+Measuring OpenCL memory bandwidth (per-transfer timing)...
+Host to Device:   25.69 GB/s (77.8422 ms total, 77.8422 (+/- 0) ms/iter)
+Device to Host:   25.92 GB/s (77.1463 ms total, 77.1463 (+/- 0) ms/iter)
+Device to Device: 147.16 GB/s (13.5909 ms total, 13.5909 (+/- 0) ms/iter)
+```
+
 ## Build Instructions
 
 ### Windows
